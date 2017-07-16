@@ -1,0 +1,176 @@
+@font-face {
+  src: url('/fonts/NixieOne-Regular.ttf');
+  font-family: 'Nixie'
+}
+@font-face {
+  src:url('/fonts/OpenSans-Regular.ttf');
+  font-family: 'Open-Regular';
+}
+@font-face {
+  src: url('/fonts/OpenSans-SemiBold.ttf');
+  font-family: 'Open-SemiBold'
+}
+@import url('https://fonts.googleapis.com/css?family=Antic+Slab');
+@import url('https://fonts.googleapis.com/css?family=Glass+Antiqua');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+body {
+  padding: 50px;
+  background: #161918;
+}
+
+.navbar{
+
+}
+.navbar-default{
+  border: 0px hidden #161918;
+}
+.navbar-default .navbar-nav > li > a:hover{
+  color:white
+}
+
+.container_nav {
+  background: #161918;
+  padding-right: 15%;
+  font-size: 1.4em;
+}
+.navbar-brand{
+  font-size: 1.4em;
+}
+li a{
+  border-bottom: 3px solid #ffae00;
+  font-family: 'Open-Regular';
+}
+li a:hover{
+  border-bottom: 3px solid #ffae00;
+  color: #fff;
+}
+
+#active-navi{
+  color:white;
+}
+.text-main-container{
+  margin-top: 50px;
+  background-color: #1A2422;
+  padding: 100px 0px;
+  background-image:
+    radial-gradient(
+      #18211F,
+      #161918
+    );
+  border-top: 3px solid #ffae00;
+  border-bottom: 3px solid #ffae00;
+}
+.hero-section{
+  background-image:url('/images/computer.jpg');
+    background-size:cover;
+    background-color: #EEEEEE;
+    height:450px;
+    text-align: center;
+    padding: 120px;
+}
+.hero-section h1{
+  color: white;
+  font-size: 4.3em;
+  letter-spacing: -1px;
+  font-family: 'Nixie';
+}
+.hero-section h4{
+  color: white;
+  font-size: 2.0em;
+  font-family: 'Open-SemiBold';
+}
+.btn {
+  background: transparent;
+  border: 2px solid #ffae00;
+  border-radius: 0px;
+  color: #ffae00;
+  margin-top: 15px;
+}
+.btn:hover{
+  border: 2px solid #333333;
+  border-radius: 4px;
+  color: #ffaa00;
+}
+.text_about{
+  text-align: justify;
+  justify-content:center;
+  letter-spacing: 0.5px;
+  font-size: 1.4em;
+  color:white;
+  margin-top: 70px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: lighter;
+}
+.text_about h2 {
+  text-align: center;
+  font-family: 'Nixie';
+  font-size: 2.3em;
+}
+.left-logos{
+  margin-top: 160px;
+  padding-right: 50px;
+}
+.right-logos{
+  margin-top: 160px;
+  padding-left: 50px;
+}
+
+.logos{
+  margin: 4px 4px;
+
+}
+#html5Logo{
+  margin-left: 115px;
+  -ms-transform: rotate(-7deg); /* IE 9 */
+-webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+transform: rotate(-10deg);
+}
+#nodeLogo{
+  margin-left: 95px;
+  margin-top: -15px;
+}
+#mongoLogo{
+  margin-left: 125px;
+}
+#jsLogo{
+
+}
+#npmLogo{
+  -ms-transform: rotate(13deg); /* IE 9 */
+-webkit-transform: rotate(13deg); /* Chrome, Safari, Opera */
+transform: rotate(13deg);
+}
+#krakenLogo{
+  margin-top: 100px;
+}
+#cssLogo{
+  margin-top: -50px;
+}
+.projects{
+  justify-content: center;
+  border-bottom: 3px solid #ffae00;
+  padding: 60px 0px
+}
+.projects h2 {
+  text-align: center;
+  font-family: 'Nixie';
+  font-size: 3.3em;
+  color: #fff;
+}
+.box{
+  border: 1px solid white;
+  height: 400px;
+  width: 400px;
+  margin: auto;
+  margin-top: 40px;
+}
+.box img{
+  border: 1px solid white;
+}
+.project-logo{
+  margin: 0px;
+}
+.icons {
+  height: 125px;
+  border: 1px solid #fff;
+}
