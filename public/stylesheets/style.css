@@ -10,17 +10,14 @@
   src: url('/fonts/OpenSans-SemiBold.ttf');
   font-family: 'Open-SemiBold'
 }
-@import url('https://fonts.googleapis.com/css?family=Antic+Slab');
-@import url('https://fonts.googleapis.com/css?family=Glass+Antiqua');
-@import url('https://fonts.googleapis.com/css?family=Dosis');
+@font-face {
+  src: url('/fonts/Dosis-Regular.ttf');
+  font-family: 'Dosis'
+}
 body {
-  padding: 50px;
-  background: #161918;
+  background: #EEEEEE;
 }
 
-.navbar{
-
-}
 .navbar-default{
   border: 0px hidden #161918;
 }
@@ -50,23 +47,19 @@ li a:hover{
 }
 .text-main-container{
   margin-top: 50px;
-  background-color: #1A2422;
   padding: 100px 0px;
-  background-image:
-    radial-gradient(
-      #18211F,
-      #161918
-    );
+  background: #D5DFDE;
   border-top: 3px solid #ffae00;
   border-bottom: 3px solid #ffae00;
+  box-shadow: 10px 10px 5px #888888;
 }
 .hero-section{
   background-image:url('/images/computer.jpg');
-    background-size:cover;
-    background-color: #EEEEEE;
-    height:450px;
-    text-align: center;
-    padding: 120px;
+  background-size:cover;
+  background-color: #EEEEEE;
+  height:450px;
+  text-align: center;
+  padding: 120px;
 }
 .hero-section h1{
   color: white;
@@ -95,15 +88,15 @@ li a:hover{
   text-align: justify;
   justify-content:center;
   letter-spacing: 0.5px;
-  font-size: 1.4em;
-  color:white;
+  font-size: 1.5em;
+  color: #18211F;
   margin-top: 70px;
   font-family: 'Dosis', sans-serif;
   font-weight: lighter;
 }
 .text_about h2 {
   text-align: center;
-  font-family: 'Nixie';
+  font-family: 'Dosis';
   font-size: 2.3em;
 }
 .left-logos{
@@ -147,30 +140,101 @@ transform: rotate(13deg);
   margin-top: -50px;
 }
 .projects{
+  margin-top: 50px;
   justify-content: center;
+  border-top: 3px solid #ffae00;
   border-bottom: 3px solid #ffae00;
-  padding: 60px 0px
+  padding: 60px 0px;
+  background: #D5DFDE;
+  box-shadow: 10px 10px 5px #888888;
 }
 .projects h2 {
   text-align: center;
-  font-family: 'Nixie';
+  font-family: 'Dosis';
   font-size: 3.3em;
-  color: #fff;
+  color: #18211F;
 }
 .box{
-  border: 1px solid white;
   height: 400px;
   width: 400px;
   margin: auto;
   margin-top: 40px;
+  padding: 12px;
+  background: #85B8AF;
+  border-radius: 16px;
 }
-.box img{
-  border: 1px solid white;
+.box:hover{
+  background: #FFE6B9;
+  transition: background .5s, border-radius .5s;
+  border-radius: 0px;
+  border-bottom: 4px solid #ffae00;
+  color: #415350;
+  box-shadow: 5px 5px 2px #888888;
+}
+.box i{
+  font-size: 7em;
+  color: #fff;
 }
 .project-logo{
   margin: 0px;
 }
 .icons {
   height: 125px;
-  border: 1px solid #fff;
+}
+.icons a i:hover{
+  color: #415350;
+}
+
+.description{
+  color:#415350;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 20px;
+  margin-top: 15px;
+  font-family: 'Dosis';
+}
+.restOf{
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Dosis'
+}
+.contact{
+  margin-top: 50px;
+  background-size:cover;
+  background-color: #EEEEEE;
+  height:450px;
+  text-align: center;
+  padding: 120px;
+}
+.contact h1{
+  color: #18211F;
+  font-size: 4.3em;
+  letter-spacing: -1px;
+  font-family: 'Nixie';
+}
+.contact h2 {
+  letter-spacing: -1px;
+  font-family: 'Nixie';
+}
+.footer {
+  background: #161918;
+  text-align: center;
+  padding: 15px;
+}
+.errorDesert{
+  background-image: url('/images/desert.jpg');
+  background-size: cover;
+  text-align: center;
+  color: white;
+  height: 500px;
+  padding-top: 130px;
+  font-family: 'Nixie';
+  margin: 30px 0px;
+}
+.errorDesert a {
+  border: 2px solid white;
+  color: white;
+  font-size: 1.2em;
+  padding: 5px;
+  text-decoration: none;
 }

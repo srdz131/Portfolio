@@ -1,68 +1,15 @@
+<!-- * HERO PART -->
 <div class="hero-section">
   <h1>Hello World</h1>
   <h4>Welcome to my Porfolio page</h4>
-  <button type="button" class='btn' name="button">About me</button>
+  <button type="button" class='btn' id='aboutMeButton' name="button">About me</button>
 </div>
 
-<div class="row text-main-container">
-  <div class="col-md-3 left-logos">
-    <img src="/images/html5.png" alt="html5-logo" id='html5Logo' class='logos' width="150">
-    <img src="/images/nodejs.png" alt="nodelogo" id='nodeLogo' class='logos' width="150">
-    <img src="/images/mongo.png" alt="mongologo" id='mongoLogo' class='logos' width="150">
-  </div>
-  <div class="col-md-6 text_about">
-    <h2>About me</h2>
-    <p>Hi, my name is Srdjan and I am self-taught web developer from Serbia. I'm 24 years old, and I have always been interested to find out how things work and that is how I started my journey in coding. After some research I wrote my first 'Hello World!' program and from that moment(more than year ago on 5th, May 2016) I'm completely in love with coding and I'm having much fun doing it and learing new technologies.
-</br>
-</br>
-  For now I've gathered knowledge and concepts in HTML5, CSS3(Bootstrap4 and Foundation), JavaScript, Nodejs, MongoDB. My goal is to one day become full stack web developer.
+<!-- * ABOUT ME -->
+{{>about}}
 
-</p>
-  <button type="button" class='btn' name="button">Projects</button>
-</div>
-  <div class="col-md-3 right-logos">
-    <img src="/images/jslogo.png" alt="jslogo" id='jsLogo' class='logos' width="120">
-    <img src="/images/npm.png" alt="npmlogo" id='npmLogo' class='logos' width="100">
-    <img src="/images/kraken.png" alt="krakenlogo" id='krakenLogo' class='logos' width="100">
-    <img src="/images/css.png" alt="csslogo" id='cssLogo' class='logos' width="100">
-  </div>
-</div>
-<div class="row projects">
-  <div class="col-md-12">
-    <h2>Projects</h2>
-  </div>
-  <div class="col-md-6">
-    <div class="box">
-      <div class="row">
-        <div class="col-xs-8 project-logo">
-          <img src="/images/books.png" id='books' alt="books" width="250">
-        </div>
-        <div class="col-xs-4">
-          <div class="icons">
+{{>projects}}
 
-          </div>
-          <div class="icons">
-
-          </div>
-        </div>
-      </div>
-
-      <p>Description of this app is here so you can see it</p>
-    </div>
-  </div>
-  <div class="col-md-6">
-    <div class="box">
-
-    </div>
-  </div>
-  <div class="col-md-6">
-    <div class="box">
-
-    </div>
-  </div>
-  <div class="col-md-6">
-    <div class="box">
-
-    </div>
-  </div>
-</div>
+<!-- * CONTANCT PART -->
+{{>contact}}
+<!-- * FOOTER -->
